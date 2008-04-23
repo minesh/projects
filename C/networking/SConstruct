@@ -1,0 +1,2 @@
+c_files = ['daytime-client.c']
+Program(c_files)
