@@ -1,0 +1,3 @@
+debug_env = Environment(CCFLAGS='-g') 
+obj = debug_env.Object('rtp_sender.o', 'rtp_sender.c') 
+debug_env.Program('rtp_sender', obj) 
